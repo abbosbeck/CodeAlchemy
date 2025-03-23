@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeAlchemy.API", "src\Code
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeAlchemy.Core", "src\CodeAlchemy.Core\CodeAlchemy.Core.csproj", "{859454E3-A8BD-0219-BC44-BAC31E220F38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeAlchemy.Web", "src\CodeAlchemy.Web\CodeAlchemy.Web.csproj", "{36B9ED85-6B88-4264-B268-F5F7B6F6D51B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{859454E3-A8BD-0219-BC44-BAC31E220F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{859454E3-A8BD-0219-BC44-BAC31E220F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{859454E3-A8BD-0219-BC44-BAC31E220F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36B9ED85-6B88-4264-B268-F5F7B6F6D51B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B9ED85-6B88-4264-B268-F5F7B6F6D51B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B9ED85-6B88-4264-B268-F5F7B6F6D51B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B9ED85-6B88-4264-B268-F5F7B6F6D51B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
