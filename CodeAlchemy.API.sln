@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeAlchemy.API", "src\CodeAlchemy.API\CodeAlchemy.API.csproj", "{B638EF2B-EB71-DA03-8627-9B9316809473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeAlchemy.Core", "src\CodeAlchemy.Core\CodeAlchemy.Core.csproj", "{859454E3-A8BD-0219-BC44-BAC31E220F38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B638EF2B-EB71-DA03-8627-9B9316809473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B638EF2B-EB71-DA03-8627-9B9316809473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B638EF2B-EB71-DA03-8627-9B9316809473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B638EF2B-EB71-DA03-8627-9B9316809473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{859454E3-A8BD-0219-BC44-BAC31E220F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859454E3-A8BD-0219-BC44-BAC31E220F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859454E3-A8BD-0219-BC44-BAC31E220F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859454E3-A8BD-0219-BC44-BAC31E220F38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D72CB66-B2D7-4483-9D57-5C626C0F85B8}
+	EndGlobalSection
+EndGlobal

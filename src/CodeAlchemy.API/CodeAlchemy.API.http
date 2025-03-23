@@ -1,0 +1,6 @@
+@CodeAlchemy.API_HostAddress = http://localhost:5045
+
+GET {{CodeAlchemy.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
