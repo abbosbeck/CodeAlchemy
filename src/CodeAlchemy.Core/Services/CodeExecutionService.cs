@@ -10,6 +10,7 @@ namespace CodeAlchemy.Core.Services
             try
             {
                 var result = await CSharpScript.EvaluateAsync(code, ScriptOptions.Default);
+                
                 return result?.ToString() ?? "No Output";
             }
             catch (Exception ex)
