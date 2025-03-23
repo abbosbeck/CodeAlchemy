@@ -3,7 +3,7 @@ using Microsoft.CodeAnalysis.Scripting;
 
 namespace CodeAlchemy.Core.Services
 {
-    public class CodeExecutionService
+    public class CodeExecutionService : ICodeExecutionService
     {
         public async Task<string> ExecuteCodeAsync(string code)
         {
