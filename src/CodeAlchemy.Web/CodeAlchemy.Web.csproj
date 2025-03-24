@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\monacoInterop.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="BlazorMonaco" Version="3.3.0" />
   </ItemGroup>
 
