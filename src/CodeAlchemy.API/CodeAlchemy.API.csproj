@@ -5,6 +5,9 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <OutputType>Exe</OutputType>
+	<ContainerImageTags>1.0.0;latest</ContainerImageTags>
+	<ContainerRepository>bookmanager</ContainerRepository>
+	<PublishProfile>DefaultContainer</PublishProfile>
   </PropertyGroup>
 
   <ItemGroup>
