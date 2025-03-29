@@ -1,0 +1,6 @@
+services:
+  codealchemy.api:
+    image: ${DOCKER_REGISTRY-}codealchemyapi
+    build:
+      context: .
+      dockerfile: src/CodeAlchemy.API/Dockerfile
