@@ -8,9 +8,13 @@
 	<ContainerImageTags>1.0.0;latest</ContainerImageTags>
 	<ContainerRepository>bookmanager</ContainerRepository>
 	<PublishProfile>DefaultContainer</PublishProfile>
+	<UserSecretsId>4520c758-fc96-4237-b295-939134cd7817</UserSecretsId>
+	<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	<DockerfileContext>..\..</DockerfileContext>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
